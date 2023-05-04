@@ -43,7 +43,7 @@ $valor_idade = 20000;
 $conta = $valor_idade / 365;
 
 if ($conta >= 18) {
- echo "maior de idade";
+ echo number_format($conta)."maior de idade";
    
 } else {
     echo "menor de idade";
